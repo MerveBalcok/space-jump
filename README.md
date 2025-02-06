@@ -2,18 +2,22 @@
 
 **Space Jump** is a simple web-based game where you control an astronaut, avoid obstacles, and collect items. The game runs in the browser and features sound effects and a scoring system.
 
+This is one of my first projects from 2024!
+
 ## Features 🌌
 - Control the astronaut using the keyboard
-- Obstacles and collectible items
+- Avoid obstacles and collect items
+- Collect sounds and listen in your pocket
 - Sound effects and scoring system
 - Playable offline with PWA support (Install button has been disabled for licensing reasons)
-# Space Jump  🚀
+  
+## How to Play 🎮
+-	Use the arrow keys or spacebar to control the astronaut
+-	Jump over obstacles and collect items
+-	Try to survive as long as possible
+  
+## Play Online 🌐
+You can try the game directly in your browser here:  
+[Play Potato Run and Burn](https://mervebalcok.github.io/space-jump/)
 
-**Space Jump** ist ein einfaches webbasiertes Spiel, in dem du einen Astronauten steuerst, Hindernissen ausweichst und Items sammelst. Das Spiel läuft im Browser und bietet Soundeffekte sowie ein Punktesystem.  
-
-## Features  🌌
-- Steuerung des Astronauten per Tastatur  
-- Hindernisse und sammelbare Items  
-- Soundeffekte und Punktesystem  
-- Offline spielbar durch PWA-Unterstützung (Install-Button wurde deaktiviert aus Lizenzgründen)  
-
+Enjoy the game, and have fun! 🚀
