@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(31, 31, 31);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    position: relative;
+}
+
+#game-container {
+    position: relative;
+    width: 900px;
+    height: 500px;
+}
+
+#canvas {
+    border: solid;
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#pocket-window {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    display: none; /* Standardmäßig ausgeblendet */
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+    z-index: 100;
+}
+
+#pocket-window.aktiv {
+    display: block;
+}
+
+#pocket-window.passiv {
+    display: none;
+}
+
+.button-container {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.btn, .btn1, .btn2, .add-button {
+    cursor: pointer;
+    background-color: rgb(46, 198, 209);
+    width: 150px;
+    height: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn:disabled {
+    background-color: rgb(144, 240, 247);;
+    color: #808080;
+    cursor: not-allowed;
+}
+
+.audio {
+    cursor: pointer;
+    background-color: rgb(46, 198, 209);
+    width: 150px;
+    height: 40px;
+    font-size: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#pocket-window .item {
+    margin-bottom: 10px;
+}
+
+#pocket-window .item p {
+    margin-bottom: 5px;
+}
+
+#pocket-window .item button {
+    cursor: pointer;
+    padding: 5px 10px;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
